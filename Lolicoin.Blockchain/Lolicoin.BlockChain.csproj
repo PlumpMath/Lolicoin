@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lolicoin.BlockChain.Validation\Lolicoin.BlockChain.Validation.csproj" />
     <ProjectReference Include="..\Lolicoin.StateMachine\Lolicoin.StateMachine.csproj" />
   </ItemGroup>
 

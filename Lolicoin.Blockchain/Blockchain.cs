@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Lolicoin.BlockChain.Validation;
+using System;
 using System.Linq;
 
 namespace Lolicoin.BlockChain
@@ -26,21 +27,7 @@ namespace Lolicoin.BlockChain
             Chain                 = Chain.Concat(new Block[1] { newBlock }).ToArray();
         }
 
-        public bool IsChainValid()
-        {
-            for (int i = 1; i < Chain.Length; i++)
-            {
-                var currentBlock = Chain[i];
-                var previousBlock = Chain[i - 1];
-
-                if (currentBlock.Hash != currentBlock.CalculateHash())
-                    return false;
-
-                if (currentBlock.PreviousHash != previousBlock.Hash)
-                    return false;
-            }
-
-            return true;
-        }
+        public bool IsChainValid() =>
+            new ValidationStateMachine().IsChainValid(Chain);
     }
 }

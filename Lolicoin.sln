@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lolicoin.StateMachine", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lolicoin.ConsoleApp", "Lolicoin.ConsoleApp\Lolicoin.ConsoleApp.csproj", "{95E3B711-7E43-418A-9FCC-38F816C202F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lolicoin.BlockChain.Validation", "Lolicoin.BlockChain.Validation\Lolicoin.BlockChain.Validation.csproj", "{F7CE323F-3575-4DA7-93DF-F23D99041B59}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{95E3B711-7E43-418A-9FCC-38F816C202F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E3B711-7E43-418A-9FCC-38F816C202F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E3B711-7E43-418A-9FCC-38F816C202F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7CE323F-3575-4DA7-93DF-F23D99041B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7CE323F-3575-4DA7-93DF-F23D99041B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7CE323F-3575-4DA7-93DF-F23D99041B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7CE323F-3575-4DA7-93DF-F23D99041B59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
